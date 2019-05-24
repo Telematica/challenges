@@ -17,6 +17,11 @@ function randomNumber(n) {
   }
   return range.pop();
 }
+
 console.log(
-  randomNumber(13)
+  randomNumber(500),
+  randomNumber(1),
+  randomNumber(500),
 );
+console.log(randomNumber(0)); // throw error
+console.log(randomNumber(1000001)); // throw error
