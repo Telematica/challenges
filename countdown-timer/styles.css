@@ -1,0 +1,35 @@
+.timer-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.timer-item {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  padding: 15px;
+  max-width: 60px;
+  max-height: 60px;
+  flex: 1 0 25%;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.timer-days__counter,
+.timer-hours__counter,
+.timer-minutes__counter,
+.timer-seconds__counter {
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.timer-days__title,
+.timer-hours__title,
+.timer-minutes__title,
+.timer-seconds__title {
+  color: #999;
+  font-size: 0.9em;
+}
